@@ -1,0 +1,222 @@
+
+
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif; /* Use consistent font */
+    background-color: #d1f6ff;
+    padding: 20px;
+    margin: 0; /* Reset default margin */
+}
+
+/* Headings */
+h1, h2 {
+    color: #333;
+    font-weight: 600;
+}
+h1 {
+    text-align: center; /* Center align heading */
+    font-size: 42px;
+    color: #003d80;
+}
+
+/* Paragraph Styles */
+p {
+    color: #000000;
+    font-size: 18px;
+    margin: 20px 0;
+    
+}
+
+/* Form Styles */
+form {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 20px auto; /* Center form with margin */
+}
+
+/* Label Styles */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: 500;
+    color: #555;
+    font-size: 15px;
+}
+
+/* Modern Input Fields */
+.fields {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #333;
+    transition: border 0.3s;
+}
+
+/* Focus Effect for Inputs */
+.fields:focus {
+    outline: none;
+    border: 2px solid #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+/* Placeholder Styles */
+::placeholder {
+    font-size: 13px;
+    color: #999;
+}
+
+/* Button Styling */
+button#button {
+    background-color: #007bff;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.3s;
+    display: block;
+    margin: 30px auto 0;
+}
+
+button#button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+button#button:active {
+    background-color: #003d80;
+    transform: translateY(0);
+}
+
+/* Grouping Fields Side by Side */
+.form-group {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; /* Allow wrapping for small screens */
+}
+
+.form-group input {
+    flex: 1;
+    padding: 12px;
+    font-size: 15px;
+}
+
+/* Ensure Inputs Do Not Overflow */
+.form-group input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Form Group Label Styles */
+.form-group label {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .form-group {
+        flex-direction: column; /* Stack fields vertically on smaller screens */
+    }
+.top{
+    margin-left: 3vh;}
+}
+
+/* Resume Styles */
+#resume {
+    font-size: 130%;
+    margin: 20px auto; /* Center resume with margin */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Name Styles */
+.name {
+    display: flex;
+    justify-content: center;
+    font-size: 135%;
+    color: rgb(76, 38, 136);
+    height: 130px;
+}
+
+/* Resume Headings */
+#resume h3 {
+    font-size: 140%;
+    color: rgb(76, 38, 136);
+    font-style: italic;
+    
+}
+
+/* List Styles */
+#flat li, .contact li, .skills li {
+    display: inline; /* Maintain inline for horizontal lists */
+    margin: 0 50px; /* Space between list items */
+    padding-left: 30px;
+    
+}
+li{
+    font-size: 18px;
+}
+/* Contact Styles */
+.contact li {
+    margin-left: 40px; /* Margin for contact items */
+    
+}
+
+/* Skills Styles */
+.skills li {
+    padding: 0 20px; /* Horizontal padding */
+}
+
+/* Footer Styles */
+#flat {
+    color: white;
+    padding: 10px;
+    height: 35px;
+    background-color: rgb(76, 38, 136);
+    text-align: center; /* Center align text */
+}
+
+/* Objective Styles */
+#objective {
+    width: 100%;
+    line-height: 30px;
+}
+
+/* Span Styles */
+span {
+    font-weight: 400;
+}
+
+#download{
+   height: 40px;
+   width: 130px;
+   font-size: 16px;
+   background-color: #003d80;
+   color: white;
+   border-radius: 4px;
+border-width: 0px;
+float: right;
+
+ transform: translateX(-20px);
+ transform: translateY(-20px);
+margin-top: 60px;
+
+}
+.top{
+    margin-left: 13vh;
+    color: #555;
+}
